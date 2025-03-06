@@ -13,13 +13,13 @@
   }
 }
 
-#let left-pane = (
-  "profile",
+#let right-pane = (
   "experience",
 )
 
-#let right-pane = (
+#let left-pane = (
   "info",
+  "profile",
   "education",
   "skills",
 )

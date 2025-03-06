@@ -21,10 +21,27 @@
   skills: ([Rust], [C++], [C], [TypeScript], [HTML/CSS], [Python], [C\#]),
 )
 
+=== Technologies
+
+#skill-entry(
+  accent-color,
+  multicol,
+  alignment,
+  skills: ([Multithreading], [Async], [Networking], [REST APIs], [Infrastructure]),
+)
+
 === DevOps
 
-#skill-entry(accent-color, multicol, alignment, skills: ([Docker], [Cloud]))
+#skill-entry(accent-color, multicol, alignment, skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud]))
 
-=== Tools
+=== Database management
 
-#skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Confluence], [Slack]))
+#skill-entry(accent-color, multicol, alignment, skills: ([PostgreSQL], [SQLite], [Redis]))
+
+// === Tools
+
+// #skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Grafana]))
+
+// === Platforms
+
+// #skill-entry(accent-color, multicol, alignment, skills: ([Supabase], [Fly.io], [Azure], [Cloudflare]))

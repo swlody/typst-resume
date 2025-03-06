@@ -17,7 +17,7 @@
 ) = {
   text(
     fill: rgb(color),
-    size: 30pt,
+    size: 26pt,
     weight: "extrabold",
     header-name,
   )
@@ -158,30 +158,6 @@
     }
   )
 }
-
-#let create-header(
-  metadata,
-  photo,
-  use-photo: false,
-) = {
-  cv-header(
-    name-table(metadata),
-    (74%, 20%),
-    left,
-  )
-}
-
-#let create-cover-header(
-  metadata,
-) = {
-  cv-header(
-    cover-header-table(metadata),
-    make-info-table(metadata),
-    (65%, 34%),
-    left,
-  )
-}
-
 
 #let cv-section(title) = {
   section-title-style(title)
@@ -329,8 +305,8 @@
     row-gutter: 3mm,
     [#degree-style(degree)], [#date-style(date)],
   )
-  [#institution-style(institution) #location-style(location)]
-  v(2pt)
+  [#institution-style(institution)\
+    #location-style(location)]
 }
 
 #let experience-entry(
@@ -348,7 +324,6 @@
     [#date-style(date)],
     table.cell(colspan: 2)[#institution-style(company), #location-style(location)],
   )
-  v(5pt)
 }
 
 #let skill-style(skill) = {
@@ -438,22 +413,6 @@
   )
 }
 
-#let create-panes(left, right, proportion) = {
-  grid(
-    columns: (proportion, 96% - proportion),
-    column-gutter: 20pt,
-    stack(
-      spacing: 20pt,
-      left,
-    ),
-    stack(
-      spacing: 20pt,
-      right,
-    ),
-  )
-}
-
-
 #let cv(
   metadata,
   photo: "",
@@ -480,8 +439,23 @@
     ),
   )
   set list(marker: [‣])
-  create-header(metadata, photo, use-photo: use-photo)
-  create-panes(left-pane, right-pane, left-pane-proportion)
+  grid(
+    columns: (left-pane-proportion, 96% - left-pane-proportion),
+    column-gutter: 20pt,
+    stack(
+      spacing: 20pt,
+      cv-header(
+        name-table(metadata),
+        auto,
+        left,
+      ),
+      left-pane,
+    ),
+    stack(
+      spacing: 20pt,
+      right-pane,
+    ),
+  )
   doc
 }
 
@@ -506,6 +480,11 @@
     ),
   )
   set list(marker: [‣])
-  create-cover-header(metadata)
+  cv-header(
+    cover-header-table(metadata),
+    make-info-table(metadata),
+    (65%, 34%),
+    left,
+  )
   doc
 }
