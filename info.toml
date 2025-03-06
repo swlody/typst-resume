@@ -7,7 +7,7 @@ include_icons = true
 
 [personal.info]
 address = "Brooklyn, NY"
-telephone = "+1 (914) 960-8475)"
+telephone = "+1 (914) 960-8475"
 
 [personal.info.email]
 link = "mailto:sam@swlody.dev"
@@ -46,7 +46,7 @@ skills = "cogs"
 # To change fill_color to white, replace value with "#ffffff"
 [layout]
 fill_color = "#f4f1eb"
-paper_size = "a4"
+paper_size = "us-letter"
 accent_color = "#d4d2cc"
 # deafult value is 71%
 left_pane_width = "71%"
