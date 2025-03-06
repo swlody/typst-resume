@@ -15,11 +15,11 @@ label = "sam@swlody.dev"
 
 [personal.info.linkedin]
 link = "https://linkedin.com/in/sam-wlody"
-label = "linkedin.com/in/sam-wlody"
+label = "linkedin/sam-wlody"
 
 [personal.info.github]
 link = "https://github.com/swlody"
-label = "github.com/swlody"
+label = "github/swlody"
 
 [personal.info.homepage]
 link = "https://swlody.dev"

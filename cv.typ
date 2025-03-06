@@ -20,6 +20,7 @@
 )
 
 #let right-pane = (
+  "info",
   "skills",
 )
 
@@ -30,4 +31,3 @@
   right-pane: import-sections(right-pane),
   left-pane-proportion: eval(meta.layout.left_pane_width),
 )
-

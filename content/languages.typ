@@ -9,5 +9,5 @@
 
 #v(5pt)
 
-language-entry(language: "English", proficiency: "Native") language-entry(language: "Spanish", proficiency: "Fluent")
-language-entry(language: "Machine Code", proficiency: "Fluent")
+#language-entry(language: "English", proficiency: "Native") language-entry(language: "Spanish", proficiency: "Fluent")
+#language-entry(language: "Machine Code", proficiency: "Fluent")

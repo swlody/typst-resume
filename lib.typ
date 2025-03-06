@@ -69,7 +69,7 @@
   let color = metadata.layout.text.color.medium
   let include-icons = metadata.personal.include_icons
   table(
-    columns: (1fr, 1fr),
+    columns: 1fr,
     stroke: none,
     ..info.pairs().map(((key, val)) => info-block-style(icons.at(key), info-value(val), color, include-icons))
   )
@@ -90,7 +90,7 @@
   )
 }
 
-#let header-table(
+#let name-table(
   metadata,
 ) = {
   let lang = metadata.personal.language
@@ -105,7 +105,6 @@
         subtitle,
         metadata.layout.text.color.dark,
       )],
-    [#info-block(metadata)],
   )
 }
 
@@ -147,7 +146,7 @@
   }
 }
 
-#let cv-header(left-comp, right-comp, cols, align) = {
+#let cv-header(left-comp, cols, align) = {
   table(
     columns: cols,
     inset: 0pt,
@@ -156,9 +155,6 @@
     align: top,
     {
       left-comp
-    },
-    {
-      right-comp
     }
   )
 }
@@ -169,8 +165,7 @@
   use-photo: false,
 ) = {
   cv-header(
-    header-table(metadata),
-    make-header-photo(photo, use-photo),
+    name-table(metadata),
     (74%, 20%),
     left,
   )

@@ -10,4 +10,3 @@
 #v(5pt)
 
 #experience-entry(title: [Combat Training], date: [2029], company: [Resistance], location: [Los Angeles, CA])
-
