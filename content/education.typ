@@ -11,7 +11,11 @@
 #v(5pt)
 
 #education-entry(
-  degree: [B.S. Computer Science, B.A. Physics, Minor Biology],
+  degree: [
+    - B.S. Comp. Sci.
+    - B.A. Physics
+    - Biology Minor
+  ],
   date: [2014 - 2018],
   institution: [University of Rochester],
   location: [Rochester, NY],

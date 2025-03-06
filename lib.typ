@@ -323,13 +323,13 @@
   highlights: (),
 ) = {
   table(
-    columns: (3fr, 1fr),
+    columns: (3fr, 2fr),
     inset: 0pt,
     stroke: none,
     row-gutter: 3mm,
     [#degree-style(degree)], [#date-style(date)],
-    [#institution-style(institution), #location-style(location)],
   )
+  [#institution-style(institution) #location-style(location)]
   v(2pt)
 }
 

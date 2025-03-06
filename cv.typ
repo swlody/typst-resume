@@ -16,11 +16,11 @@
 #let left-pane = (
   "profile",
   "experience",
-  "education",
 )
 
 #let right-pane = (
   "info",
+  "education",
   "skills",
 )
 
