@@ -14,6 +14,7 @@
 }
 
 #let right-pane = (
+  "sabbatical",
   "experience",
   "projects",
 )

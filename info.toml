@@ -15,11 +15,11 @@ label = "sam@swlody.dev"
 
 [personal.info.linkedin]
 link = "https://linkedin.com/in/sam-wlody"
-label = "linkedin/sam-wlody"
+label = "sam-wlody"
 
 [personal.info.github]
 link = "https://github.com/swlody"
-label = "github/swlody"
+label = "swlody"
 
 [personal.info.homepage]
 link = "https://swlody.dev"
@@ -37,7 +37,8 @@ homepage = "globe"
 education = "graduation-cap"
 experience = "briefcase"
 languages = "language"
-other_experience = "wrench"
+projects = "wrench"
+sabbatical = "code"
 personal = "brain"
 profile = "id-card"
 references = "users"

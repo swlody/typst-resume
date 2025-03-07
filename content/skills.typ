@@ -10,6 +10,15 @@
 
 = #if include-icon [#fa-icon(icon) #h(5pt)] Skills
 
+#v(3pt)
+
+#skill-entry(
+  accent-color,
+  multicol,
+  alignment,
+  skills: ([Multithreading], [Async], [Networking], [API design], [Infrastructure], [Profiling]),
+)
+
 === Programming languages
 
 #skill-entry(
@@ -19,27 +28,18 @@
   skills: ([Rust], [C++], [C], [TypeScript], [HTML/CSS], [Python], [C\#]),
 )
 
-=== Technologies
-
-#skill-entry(
-  accent-color,
-  multicol,
-  alignment,
-  skills: ([Multithreading], [Async], [Networking], [REST APIs], [Infrastructure]),
-)
-
 === DevOps
 
 #skill-entry(
   accent-color,
   multicol,
   alignment,
-  skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud], [PostgreSQL], [SQLite], [Redis]),
+  skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud]),
 )
 
-// === Database management
+=== Databases
 
-// #skill-entry(accent-color, multicol, alignment, skills: ([PostgreSQL], [SQLite], [Redis]))
+#skill-entry(accent-color, multicol, alignment, skills: ([PostgreSQL], [SQLite], [Redis]))
 
 === Tools
 
