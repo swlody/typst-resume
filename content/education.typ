@@ -12,7 +12,7 @@
 
 #education-entry(
   degree: [
-    - B.S. Comp. Sci.
+    - B.S. Computer Science
     - B.A. Physics
     - Biology Minor
   ],

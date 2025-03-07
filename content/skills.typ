@@ -10,8 +10,6 @@
 
 = #if include-icon [#fa-icon(icon) #h(5pt)] Skills
 
-#v(0pt)
-
 === Programming languages
 
 #skill-entry(
@@ -32,16 +30,21 @@
 
 === DevOps
 
-#skill-entry(accent-color, multicol, alignment, skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud]))
+#skill-entry(
+  accent-color,
+  multicol,
+  alignment,
+  skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud], [PostgreSQL], [SQLite], [Redis]),
+)
 
-=== Database management
+// === Database management
 
-#skill-entry(accent-color, multicol, alignment, skills: ([PostgreSQL], [SQLite], [Redis]))
+// #skill-entry(accent-color, multicol, alignment, skills: ([PostgreSQL], [SQLite], [Redis]))
 
-// === Tools
+=== Tools
 
-// #skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Grafana]))
+#skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Grafana]))
 
-// === Platforms
+=== Platforms
 
-// #skill-entry(accent-color, multicol, alignment, skills: ([Supabase], [Fly.io], [Azure], [Cloudflare]))
+#skill-entry(accent-color, multicol, alignment, skills: ([Supabase], [Fly.io], [Azure], [Cloudflare]))

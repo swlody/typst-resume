@@ -299,14 +299,15 @@
   highlights: (),
 ) = {
   table(
-    columns: (3fr, 2fr),
+    columns: (2fr, 1fr),
     inset: 0pt,
     stroke: none,
     row-gutter: 3mm,
-    [#degree-style(degree)], [#date-style(date)],
+    [#institution-style(institution)\
+      #location-style(location)],
+    [#date-style(date)],
   )
-  [#institution-style(institution)\
-    #location-style(location)]
+  [#degree-style(degree)]
 }
 
 #let experience-entry(
