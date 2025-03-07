@@ -440,16 +440,17 @@
     ),
   )
   set list(marker: [‣])
+  cv-header(
+    name-table(metadata),
+    auto,
+    left,
+  )
   grid(
     columns: (left-pane-proportion, 96% - left-pane-proportion),
     column-gutter: 20pt,
     stack(
       spacing: 20pt,
-      cv-header(
-        name-table(metadata),
-        auto,
-        left,
-      ),
+
       left-pane,
     ),
     stack(

@@ -13,15 +13,15 @@
   }
 }
 
-#let right-pane = (
+#let left-pane = (
   "sabbatical",
   "experience",
   "projects",
 )
 
-#let left-pane = (
+#let right-pane = (
   "info",
-  // "profile",
+  "profile",
   "education",
   "skills",
 )

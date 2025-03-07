@@ -2,7 +2,7 @@
 #import "../lib.typ": experience-entry, language-entry
 #import meta.import.fontawesome: *
 
-#let icon = meta.section.icon.other_experience
+#let icon = meta.section.icon.projects
 #let include-icon = meta.personal.include_icons
 
 = #if include-icon [#fa-icon(icon) #h(5pt)] Projects

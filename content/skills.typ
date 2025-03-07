@@ -45,6 +45,6 @@
 
 #skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Grafana]))
 
-=== Platforms
+// === Platforms
 
-#skill-entry(accent-color, multicol, alignment, skills: ([Supabase], [Fly.io], [Azure], [Cloudflare]))
+// #skill-entry(accent-color, multicol, alignment, skills: ([Supabase], [Fly.io], [Azure], [Cloudflare]))
