@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v2.0.1
+        with:
+          version: latest
+
+      - name: Build resume
+        run: |
+          mkdir fonts
+          curl -L "https://files.swlody.dev/fonts.tar" -o fonts.tar
+          tar -xf fonts.tar
+          typst compile --font-path ./fonts resume.typ
+
+      - name: Upload resume
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: r2 object put swlody-dev-storage/resume.pdf -f resume.pdf
+
+      - name: Clear cache
+        env:
+          CACHE_ZONE: ${{ secrets.CACHE_ZONE }}
+          BEARER_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          curl --request POST \
+          --url https://api.cloudflare.com/client/v4/zones/$CACHE_ZONE/purge_cache \
+          --header 'Content-Type: application/json' \
+          --header 'Authorization: Bearer $BEARER_TOKEN' \
+          --data '{ "files": ["https://files.swlody.dev/resume.pdf"] }'
