@@ -36,6 +36,6 @@ jobs:
         run: |
           curl --request POST \
           --url https://api.cloudflare.com/client/v4/zones/$CACHE_ZONE/purge_cache \
-          --header 'Content-Type: application/json' \
-          --header 'Authorization: Bearer $BEARER_TOKEN' \
+          --header "Content-Type: application/json" \
+          --header "Authorization: Bearer $BEARER_TOKEN" \
           --data '{ "files": ["https://files.swlody.dev/resume.pdf"] }'
