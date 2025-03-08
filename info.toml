@@ -50,7 +50,7 @@ fill_color = "#f4f1eb"
 paper_size = "us-letter"
 accent_color = "#d4d2cc"
 # deafult value is 71%
-left_pane_width = "73%"
+left_pane_width = "69%"
 
 [layout.text]
 font = "HK Grotesk"
