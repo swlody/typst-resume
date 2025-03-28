@@ -9,4 +9,4 @@
 
 #v(5pt)
 
-Experienced Full Stack Software Engineer with interest in backend and infrastructure. Proficient in Rust and C++.
+Experienced Full Stack Software Engineer with interest in backend and infrastructure. Proficient in designing scalable and performant systems. Passionate about building reliable and well-tested products.
