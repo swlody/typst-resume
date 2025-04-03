@@ -14,8 +14,8 @@
 }
 
 #let left-pane = (
-  "sabbatical",
   "experience",
+  "sabbatical",
   "projects",
 )
 
