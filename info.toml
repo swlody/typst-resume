@@ -46,7 +46,7 @@ skills = "cogs"
 
 # To change fill_color to white, replace value with "#ffffff"
 [layout]
-fill_color = "#f4f1eb"
+fill_color = "#ffffff"
 paper_size = "us-letter"
 accent_color = "#d4d2cc"
 # deafult value is 71%

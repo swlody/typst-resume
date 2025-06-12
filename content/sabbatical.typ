@@ -13,7 +13,7 @@
 
 #experience-entry(
   title: [Programming Retreat Participant],
-  date: [2024 - ?],
+  date: [2024],
   company: link("https://recurse.com")[Recurse Center],
   location: [Brooklyn, NY],
 )

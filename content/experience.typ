@@ -1,5 +1,6 @@
 #let meta = toml("../info.toml")
 #import "../lib.typ": experience-entry
+#import "projects.typ"
 #import meta.import.fontawesome: *
 
 #let icon = meta.section.icon.experience
@@ -8,6 +9,30 @@
 = #if include-icon [#fa-icon(icon) #h(5pt)] Work experience
 
 #show link: underline
+
+#v(3pt)
+
+#experience-entry(
+  title: [Software Engineer],
+  date: [2025 - ],
+  company: [GiveCampus],
+  location: [Remote],
+)
+
+#v(3pt)
+
+#experience-entry(
+  title: [Programming Retreat Participant],
+  date: [2024],
+  company: link("https://recurse.com")[Recurse Center],
+  location: [Brooklyn, NY],
+)
+
+- Gained depth and breadth of knowledge of web technologies and infrastructure.
+  - Built horizontally and vertically scalable backend services.
+  - Implemented authentication, logging, configuration, metrics and monitoring.
+  - CI/CD with extensive testing and cloud native hosting of Docker containers.
+- And #link("https://swlody.dev/recurse")[many other things]! (Also see projects below)
 
 #v(3pt)
 
