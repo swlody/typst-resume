@@ -381,7 +381,7 @@
       align: right,
       text(
         weight: "medium",
-        proficiency,
+        [#date-style(proficiency)],
       ),
     ),
   )
