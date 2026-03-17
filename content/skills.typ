@@ -25,7 +25,15 @@
   accent-color,
   multicol,
   alignment,
-  skills: ([Rust], [C++], [C], [TypeScript], [HTML/CSS], [Python], [C\#]),
+  skills: ([Rust], [C++], [C], [TypeScript], [HTML/CSS], [Ruby], [Python], [C\#]),
+)
+
+=== Frameworks & Libraries
+#skill-entry(
+  accent-color,
+  multicol,
+  alignment,
+  skills: ([Rails], [React]),
 )
 
 === DevOps
@@ -34,16 +42,12 @@
   accent-color,
   multicol,
   alignment,
-  skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud]),
+  skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud], [PostgreSQL], [Redis]),
 )
-
-=== Databases
-
-#skill-entry(accent-color, multicol, alignment, skills: ([PostgreSQL], [SQLite], [Redis]))
 
 === Tools
 
-#skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Grafana]))
+#skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Grafana], [Linear]))
 
 // === Platforms
 

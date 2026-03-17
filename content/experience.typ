@@ -13,26 +13,18 @@
 #v(3pt)
 
 #experience-entry(
-  title: [Software Engineer],
-  date: [2025 - ],
+  title: [Full Stack Software Engineer],
+  date: [2025 - Present],
   company: [GiveCampus],
   location: [Remote],
 )
 
-#v(3pt)
-
-#experience-entry(
-  title: [Programming Retreat Participant],
-  date: [2024],
-  company: link("https://recurse.com")[Recurse Center],
-  location: [Brooklyn, NY],
-)
-
-- Gained depth and breadth of knowledge of web technologies and infrastructure.
-  - Built horizontally and vertically scalable backend services.
-  - Implemented authentication, logging, configuration, metrics and monitoring.
-  - CI/CD with extensive testing and cloud native hosting of Docker containers.
-- And #link("https://swlody.dev/recurse")[many other things]! (Also see projects below)
+- Developed full-stack features in Ruby on Rails and React, including payment integrations.
+- Led a rework of a service that displays personalized information on giving forms depending on the intended recipient. Implemented form autofill logic, controller integration, email pipeline, and admin UI components.
+- Spearheaded a public API initiative, prototyping RESTful endpoints to enable AI-assisted rapid development of custom frontend pages, validated as a proof of concept.
+- Improved accessibility across user-facing pages for annual compliance reporting.
+- Built an internal AI-powered UX consistency auditor using Claude Code with Chrome DevTools and Figma MCP integrations.
+- Served as on-call support engineer to resolve bugs and data integrity issues, unblocking time-sensitive production workflows using New Relic, Sentry, and PagerDuty.
 
 #v(3pt)
 
@@ -58,8 +50,7 @@
 )
 
 - Worked on a team to implement an asynchronous and multi-threaded SFTP server in C++.
-  // This can be reworded
-  - Integrated with existing backend storage APIs, monitoring infrastructure, QA, and testing.
+  - Integrated with existing backend storage APIs and monitoring infrastructure; contributed to QA and end-to-end testing.
   - Shared responsibilities for organizing sprint planning and participating in code reviews.
 - Spent several days per month on-call as directly responsible engineer for API team.
   - Troubleshooted and resolved issues across the global surface of the cloud storage API.
