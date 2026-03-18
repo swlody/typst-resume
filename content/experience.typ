@@ -20,8 +20,8 @@
 )
 
 - Developed full-stack features in Ruby on Rails and React, including payment integrations.
-- Led a rework of a service that displays personalized information on giving forms depending on the intended recipient. Implemented form autofill logic, controller integration, email pipeline, and admin UI components.
-- Spearheaded a public API initiative, prototyping RESTful endpoints to enable AI-assisted rapid development of custom frontend pages, validated as a proof of concept.
+- Led a rework of a service that displays personalized information on donation forms based on the intended recipient. Implemented form autofill logic, controller integration, email pipeline, and admin UI components.
+- Spearheaded a public API initiative, prototyping RESTful endpoints to enable AI-assisted rapid development of custom frontend pages.
 - Improved accessibility across user-facing pages for annual compliance reporting.
 - Built an internal AI-powered UX consistency auditor using Claude Code with Chrome DevTools and Figma MCP integrations.
 - Served as on-call support engineer to resolve bugs and data integrity issues, unblocking time-sensitive production workflows using New Relic, Sentry, and PagerDuty.
@@ -37,8 +37,8 @@
 
 - Developed a reconciliation system for messages sent and received by trading systems.
   - Integrated with Apache Kafka for reconciliation data and Redis for reporting mismatches.
-- Participated in the full lifecycle of feature development from implementation and testing through deployment and verification.
-- Assisted new hires with an on-boarding exercise to implement a simple trading model.
+- Owned features through the full development lifecycle from implementation and testing through deployment and verification.
+- Mentored new hires through an on-boarding exercise to implement a simple trading model.
 
 #v(3pt)
 
@@ -49,17 +49,16 @@
   location: [Reston, VA],
 )
 
-- Worked on a team to implement an asynchronous and multi-threaded SFTP server in C++.
+- Collaboratively implemented an asynchronous and multi-threaded SFTP server in C++.
   - Integrated with existing backend storage APIs and monitoring infrastructure; contributed to QA and end-to-end testing.
-  - Shared responsibilities for organizing sprint planning and participating in code reviews.
-- Spent several days per month on-call as directly responsible engineer for API team.
+  - Co-led sprint planning and participated in code reviews.
+- Rotated as directly responsible engineer (DRE) for the API team's on-call shifts.
   - Troubleshooted and resolved issues across the global surface of the cloud storage API.
-  - Gained familiarity with every layer of the storage stack from public-facing SDKs and APIs down to the distributed filesystem.
+  - Navigated every layer of the storage stack from public-facing SDKs and APIs down to the distributed filesystem.
   - Dug deeply into unfamiliar system layers to quickly remediate customer issues.
-  - Exercised communication skills to organize responses across teams.
-  - Practiced software lifecycle management to ensure issues were fixed in production.
+  - Coordinated cross-team incident responses.
   - Wrote root-cause analyses of incidents and coordinated issue mitigation and resolution.
-- Went beyond job scope to #link("https://github.com/Azure/azure-sdk-for-rust/pull/67")[contribute] to the open source Rust SDK for Azure.
+- Contributed outside official responsibilities to the open source Rust SDK for Azure.
 
 #v(3pt)
 

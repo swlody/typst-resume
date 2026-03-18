@@ -12,11 +12,13 @@
 
 #v(3pt)
 
+=== Competencies
+
 #skill-entry(
   accent-color,
   multicol,
   alignment,
-  skills: ([Multithreading], [Async], [Networking], [API design], [Infrastructure], [Profiling]),
+  skills: ([Multithreading], [Async], [Networking], [API design]),
 )
 
 === Programming languages
@@ -25,29 +27,21 @@
   accent-color,
   multicol,
   alignment,
-  skills: ([Rust], [C++], [C], [TypeScript], [HTML/CSS], [Ruby], [Python], [C\#]),
+  skills: ([Rust], [Ruby], [TypeScript], [C and C++], [Python], [C\#]),
 )
 
-=== Frameworks & Libraries
-#skill-entry(
-  accent-color,
-  multicol,
-  alignment,
-  skills: ([Rails], [React]),
-)
-
-=== DevOps
+=== DevOps & Databases
 
 #skill-entry(
   accent-color,
   multicol,
   alignment,
-  skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Cloud], [PostgreSQL], [Redis]),
+  skills: ([Docker], [CI/CD], [Metrics], [Monitoring], [Azure], [AWS], [Grafana], [Sentry], [PostgreSQL], [Redis]),
 )
 
-=== Tools
+=== Frameworks & Tools
 
-#skill-entry(accent-color, multicol, alignment, skills: ([Git], [Jira], [Grafana], [Linear]))
+#skill-entry(accent-color, multicol, alignment, skills: ([Rails], [React], [Git]))
 
 // === Platforms
 

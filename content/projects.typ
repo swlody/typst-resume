@@ -16,4 +16,4 @@
   proficiency: [February 2025],
 )
 
-Website with a globally shared canvas that allows users to anonymously collaborate and create poetry using a predefined set of "fridge poetry magnets". Thoughtfully and meticulously designed to evoke the real-life experience. Custom TypeScript frontend which communicates with Rust backend via WebSockets and MessagePack. Postgres database utilizing a GiST index for bounding box queries and `LISTEN/NOTIFY` for broadcasting changes.
+Website with a globally shared canvas that allows users to anonymously collaborate and create poetry using a predefined set of "fridge poetry magnets". Thoughtfully designed to evoke the real-life experience. Custom TypeScript frontend that communicates with Rust backend via WebSockets and MessagePack. PostgreSQL database using an R-Tree index for bounding box queries and `LISTEN/NOTIFY` for broadcasting changes.

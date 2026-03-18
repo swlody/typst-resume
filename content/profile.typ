@@ -9,4 +9,4 @@
 
 #v(5pt)
 
-Experienced Full Stack Software Engineer with interest in backend and infrastructure. Proficient in designing scalable and performant systems. Passionate about building reliable and well-tested products.
+Full Stack Software Engineer with depth in backend systems, distributed infrastructure, and API design. Has shipped production software in C++, Rust, Ruby, and TypeScript across cloud, finance, and SaaS.
